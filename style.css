@@ -51,6 +51,7 @@ ul {
 
 #plans-list {
   display: flex;
+  align-items: center;
   justify-content: center;
   gap: 20px;
 }
@@ -180,6 +181,6 @@ ul {
   background: var(--blue);
   color: #ffffff;
   border: none;
-  bottom: 50px;
+  bottom: 40px;
   font-size: 20px;
 }
