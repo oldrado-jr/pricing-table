@@ -187,3 +187,55 @@ ul {
   bottom: 40px;
   font-size: 20px;
 }
+
+@media (max-width: 700px) {
+
+  header,
+  main {
+    padding: 0 10px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  header span {
+    font-size: 14px;
+  }
+
+  #plans-list {
+    padding-bottom: 20px;
+  }
+
+  .card-plans,
+  .plan-sign-up {
+    position: initial;
+  }
+
+  .card-plans {
+    height: initial;
+    padding: 20px;
+  }
+
+  .popular-card-plans {
+    padding: 0;
+  }
+
+  .popular-plan-title-container {
+    padding: 20px;
+  }
+
+  .popular-card-container {
+    padding: 0 20px;
+  }
+
+  .plan-sign-up {
+    width: 100%;
+    margin-top: 20px;
+    bottom: initial;
+  }
+
+  .popular-plan-sign-up {
+    margin-bottom: 20px;
+  }
+}
