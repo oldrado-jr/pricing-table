@@ -44,3 +44,142 @@ header h1 {
 header span {
   font-size: 18px;
 }
+
+ul {
+  list-style: none;
+}
+
+#plans-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card-plans {
+  padding: 30px;
+  border-radius: 8px;
+  background: #ffffff;
+  color: var(--gray);
+  box-shadow: 0px 1px 2px 0px rgba(142, 150, 185, 0.25);
+  width: min(100%, 355px);
+  height: 470px;
+  position: relative;
+}
+
+.popular-card-plans {
+  height: 490px;
+  padding: 0;
+}
+
+.normal-plan-title {
+  color: #1e2338;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.popular-plan-title-container {
+  border-radius: 8px 8px 0px 0px;
+  background: #FFCC29;
+  box-shadow: 0px 1px 2px 0px rgba(142, 150, 185, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14.5px 30px;
+}
+
+.popular-plan-title {
+  color: var(--blue);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.popular-plan-tag {
+  border-radius: 40px;
+  background: var(--blue);
+  color: #ffffff;
+  padding: 8px 24px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.plan-price-container {
+  margin: 20px 0 10px 0;
+  color: #1E2338;
+  font-weight: 700;
+}
+
+.popular-card-container {
+  padding: 0 30px;
+}
+
+.popular-plan-price-container {
+  margin: 10px 0;
+}
+
+.plan-price {
+  font-size: 36px;
+}
+
+.popular-plan-price {
+  font-size: 38px;
+}
+
+.plan-price-cents {
+  font-size: 18px;
+}
+
+.plan-type {
+  color: var(--gray);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.plan-description {
+  font-size: 14px;
+}
+
+.divider {
+  border: 1px solid #eeeeee;
+  margin: 20px 0;
+}
+
+.plan-content-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.plan-content-item {
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.popular-plan-content-item {
+  font-size: 16px;
+}
+
+.plan-sign-up {
+  position: absolute;
+  bottom: 30px;
+  border-radius: 10px;
+  border: 1px solid var(--blue);
+  color: var(--blue);
+  padding: 12px 24px;
+  width: calc(100% - 60px);
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: #ffffff;
+}
+
+.popular-plan-sign-up {
+  background: var(--blue);
+  color: #ffffff;
+  border: none;
+  bottom: 50px;
+  font-size: 20px;
+}
