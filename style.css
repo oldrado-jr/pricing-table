@@ -19,3 +19,28 @@ body {
 body * {
   font-family: 'Open Sans', sans-serif;
 }
+
+header {
+  background: var(--blue);
+  color: #ffffff;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+header h1,
+header span {
+  width: min(100%, 553px);
+  text-align: center;
+}
+
+header h1 {
+  font-size: 48px;
+}
+
+header span {
+  font-size: 18px;
+}
